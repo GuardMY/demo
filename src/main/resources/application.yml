@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: dev
+springdoc:
+  packages-to-scan: com.example.demo.controller
+  paths-to-match: /v1
+  swagger-ui:
+    path: /test
